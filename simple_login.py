@@ -12,7 +12,7 @@ class login:
             
             
 username = 'admin'
-password = "Pa$$w0rd"
+password = "Passw0rd!"
 
 log = login(username, password)
 log.check(raw_input("Enter Login ID:"),
