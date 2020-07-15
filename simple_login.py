@@ -9,7 +9,11 @@ class login:
         print self.id
         if self.id == id and self.pas == pas:
             print "Login success!"
+            
+            
+username = 'admin'
+password = "Pa$$w0rd"
 
-log = login("admin", "Pa$$w0rd")
+log = login(username, password)
 log.check(raw_input("Enter Login ID:"),
           raw_input("Enter password: "))
