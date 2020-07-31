@@ -1,4 +1,4 @@
-#Copyright xgitguarddemo 2020
+# xgitguarddemo 2020
 
 class login:
     def __init__(self, id, pas):
